@@ -1,18 +1,26 @@
 # Employee Performance Analysis
 ## Project Overview
-This project analyzes employee performance in an advertising agency using MySQL and Power BI for data visualization. The analysis aims to identify performance trends and employees with high task completion rates and high overdue rates.
+This project analyzes employee performance in an advertising agency using Power BI. The analysis aims to identify performance trends, workload distribution, and employee performance ranks.
 
 
 ## Key Question
 The goal is to answer key business questions such as:
-- How do overdue tasks change over month?
+- How does employee performance change month over month in 2026?
 - How is the workload for each month?
-- Which employees have the highest completion rate?
-- Which employees have the highest overdue rate?
+- Who are the top and bottom performers?
 
 ## Tech Stack
-- MySQL
-  - Case When
-  - CTE
-  - Window Function
 - Power BI
+    - Data modeling
+    - DAX calculation
+    - Data Visualization
+- Power Query
+    - Transformation
+    - Table Formatting
+- DAX
+    - KPI Calculation
+    - Month over month calculation
+    - Table Creation
+
+### Data Source
+The dataset was sourced from the company’s timesheet web app. Sensitive details such as employee names and team names were replaced with dummy values.
